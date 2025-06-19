@@ -1,4 +1,6 @@
-package com.ygorribeiro.API_Empresas.empresas;
+package dto;
+
+import entity.Empresas;
 
 public record DadosDetalhamentoEmpresas(Long id, String nome, String cnpj, int quantidade) {
 

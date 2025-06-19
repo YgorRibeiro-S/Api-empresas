@@ -1,16 +1,15 @@
-package com.ygorribeiro.API_Empresas.empresas;
+package dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 
-public record DadosCadastroEmpresas(
+public record DadosAtualizarEmpresas(
 		
-		
-		
+	    @NotNull
+		Long id, 
 		@NotBlank
 		String nome, 
-		String cnpj, 
-		@NotNull
+		 
 		int quantidade) {
 
 }

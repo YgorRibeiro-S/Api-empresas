@@ -1,5 +1,7 @@
-package com.ygorribeiro.API_Empresas.empresas;
+package entity;
 
+import dto.DadosAtualizarEmpresas;
+import dto.DadosCadastroEmpresas;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

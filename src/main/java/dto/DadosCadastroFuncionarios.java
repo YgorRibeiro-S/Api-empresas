@@ -1,4 +1,4 @@
-package com.ygorribeiro.API_Empresas.funcionarios;
+package dto;
 
 import jakarta.validation.constraints.NotBlank;
 

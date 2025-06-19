@@ -1,4 +1,6 @@
-package com.ygorribeiro.API_Empresas.funcionarios;
+package dto;
+
+import entity.Funcionarios;
 
 public record DadosDetalhamentoFuncionarios( long id,
  String nome,

@@ -1,6 +1,7 @@
-package com.ygorribeiro.API_Empresas.funcionarios;
+package entity;
 
 
+import dto.DadosCadastroFuncionarios;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
